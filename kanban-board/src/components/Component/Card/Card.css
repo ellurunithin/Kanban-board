@@ -1,0 +1,110 @@
+/* Card Wrapper */
+.card-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 3px #a8a8a8;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column; /* Keep as column to stack vertically */
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+/* ID Line */
+.id-line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* User Image */
+.usr-img-wrapper {
+    position: relative;
+}
+
+.usr-img-wrapper svg {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    right: 0;
+    bottom: 0;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.usr-img {
+    height: 20px;
+    width: auto;
+    border-radius: 50%;
+}
+
+/* Title Line */
+.title-line {
+    display: flex;
+    flex-direction: column; /* Change from row to column */
+    gap: 0.5rem;
+}
+
+.title-line .status-icon {
+    margin-top: 0.1rem; /* Align icon with text */
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #343a3f;
+    line-height: 1.2;
+}
+
+/* Bottom Line */
+.bottom-line {
+    display: flex;
+    flex-direction: column; /* Change from row to column */
+    align-items: flex-start; /* Align items to the start */
+    gap: 0.5rem;
+}
+
+/* Priority Image Wrapper */
+.priority-img-wrapper {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Change to column to stack vertically */
+    justify-content: center;
+    align-items: center;
+    padding: 0.25rem;
+    border: 1px solid #c1c7cd;
+    border-radius: 4px;
+    height: fit-content;
+    width: fit-content;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+/* Tags */
+.tags {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; /* Stack tags vertically */
+    gap: 0.5rem;
+}
+
+.tag {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+    padding: 0.3rem;
+    border: 1px solid #c1c7cd;
+    border-radius: 4px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.tag h1 {
+    font-size: 14px;
+    font-weight: 500;
+    color: #697077;
+}
